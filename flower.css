@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1300px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url(./flower-design/background-image.png);
+}
+
+.top-navbar{
+    background-color: #c87e6b;
+    padding-top: 23px;
+    padding-bottom: 18px;
+    padding: 23px 40px 18px 40px;
+}
+
+.navbar-brand{
+    margin-right: 31px;
+}
+
+.flower-girl{
+    background-image: url(./flower-design/flower-maker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 650px;
+    min-width: 320px;
+    height: 723px;
+    margin-left: auto;
+}
+
+.icon{
+    width: 60px;
+}
+
+.icon i{
+    font-size: 25px;
+    color: white;
+}
+
+.sign-in{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px 2px 6px 2px;
+    margin-top: 5px;
+    width: 76px;
+    text-align: center;
+}
+
+.header-link{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 11px;
+}
+
+.flower-heading h1{
+    margin-top: 120px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 53px;
+    color: #484a4b;
+    line-height: 51px;
+    /* text-align: center; */
+    /* padding-left: 10px; */
+}
+
+.navbar-link{
+    width: 651px;
+    max-width: 100%;
+    padding-right: 113px;
+    /* justify-content: space-between; */
+}
+
+.flower-sub-heading h4{
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 23px;
+    color: #765a33;
+    padding-left: 5px;
+    word-spacing: 3px;
+}
+
+.flower-paragraph p{
+    font-family: Josefin Slab;
+    font-weight: 400;
+    font-size: 23px;
+    color: #8f7b5f;
+}
+
+.flower-paragraph p::first-line{
+    word-spacing: -2px;
+    letter-spacing: 0px;
+}
+
+.flower-arrangment-data{
+    position: relative;
+}
+
+.first-section-right-leaf{
+    background-image: url(./flower-design/first-section-leaf-design.png);
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    right: -43px;
+}
+
+.first-section-bottom-left-leaf{
+    background-image: url(./flower-design/first-section-second-leaf-design.png);
+    width: 119px;
+    height: 240px;
+    position: absolute;
+    left: -108px;
+    bottom: -35px;
+}
+
+.botton-s{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.btn{
+    transition: none;
+}
+/* .botto-s{
+    background-color: transparent !important;
+} */
+.botton-s:hover{
+    background-color: #484a4b;  
+    border-radius: 30px;
+    line-height: 5px;
+    color: white;
+    /* padding: 2px 10px 2px 10px;   */
+}
+
+.section-two-container{
+    width: 1030px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.section-two{
+    background-color: #6b502c;
+    color: white;
+    padding: 65px 0px 85px 0px;
+}
+
+.numbers{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+
+}
+
+.title{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.section-three{
+    padding-top: 108px;
+}
+
+.first-leaf-design{
+    background-image: url(./flower-design/leafe-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 78px;
+    position: absolute;
+    left: 0;
+}
+
+.second-leaf-design{
+    background-image: url(./flower-design/second-leafe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 78px;
+    position: absolute;
+    right: 0px;
+}
+.product-info{
+    position: relative;
+    margin: 0;
+}
+
+.section-three-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.Product-heading{
+    font-family:Playfair Display;
+    font-weight:  700;
+    font-size: 53px;
+    color: #484a4b;
+}
+
+.Product-sub-heading{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 23px;
+    color: #765a33;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card{
+    width: 265px;
+    /* box-shadow: 2px 2px 2px 2px grey; */
+    max-width: 100%;
+}
+
+.card-title{
+    font-family:Playfair Display;
+    font-weight:  700;
+    font-size: 27px;
+    color: #484a4b;
+}
+
+.card-text{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7f6543;
+}
+
+.more{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #454545;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 13px 3px 13px;
+}
+
+.carousel-control-prev{
+    position: inherit;
+    width: 60px;
+}
+
+.carousel-control-next{
+    position: inherit;
+    width: 60px;
+}
+
+
+.card-img-top{
+    height: 260px;
+    width: 265px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.rounded-circle{
+    width: 45px;
+    height: 45px;
+}
+
+.carousel-control-prev-icon{
+    background-size: 60% 60%;
+}
+
+.carousel-control-next-icon{
+    background-size: 60% 60%;
+}
+
+.section-four{
+    padding-top: 120px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.section-four-info{
+    width: 1030px;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.section-four-title{
+    margin-bottom: 65px;
+}
+
+.rectangular{
+    background-image: url(./flower-design/rectangular-design.png);
+    width: 512px;
+    height: 315px;
+    max-width: 100%;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fill-rectengular-design{
+    background-image: url(./flower-design/fill-rectangular-design.png);
+    width: 250px;
+    height: 235px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+
+.rectangular-design{
+    position: relative;
+}
+
+.flower-video{
+    background-image: url(./flower-design/section-four-image.png);
+    width: 100%;
+    height: 560px;
+    max-width: 956px;
+    min-width: 300px;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+.left-leaf{
+    background-image: url(./flower-design/left-leafe-design.png);
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 222px;
+    position: absolute;
+}
+
+.right-leaf{
+    background-image: url(./flower-design/rigth-leaf-design.png);
+    width: 90px;
+    height: 210px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.section-three-left-leaf{
+    background-image: url(./flower-design/section-three-left-leaf.png);
+    width: 60px;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+
+.section-three-right-leaf{
+    background-image: url(./flower-design/section-three-right-leaf.png);
+    width: 60px;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+
+.section-four-heading{
+    font-family:Playfair Display;
+    font-weight:  700;
+    font-size: 53px;
+    color: #454545;
+}
+
+.section-four-sub-heading{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 23px;
+    color: #765a33;
+}
+
+
+.footer-link-heading{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.footer-link{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+
+.section-five{
+    background-color: #424242;
+    color: white;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 567.98px){
+
+    .flower-heading h1{
+        font-size: 34px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .flower-sub-heading h4{
+        width: 280px;
+        margin: auto !important;
+        padding: 0;
+        font-size: 19px;
+    }
+
+    .section-one{
+        text-align: center;
+    }
+
+
+    .first-section-right-leaf{
+        right: 0;
+    }
+
+    .navbar-link{
+        width: 200px;
+        padding-right: 0;
+    }
+
+    .icon{
+        margin: auto;
+    }
+
+    .flower-girl{
+        background-size: contain;
+        height: 400px;
+    }
+
+    .section-two-container{
+        flex-direction: column;
+    }
+
+    .section-three{
+        padding-top: 70px;
+    }
+
+    .Product-sub-heading{
+        padding-bottom: 0;
+    }
+
+    .section-four-heading{
+        font-size: 34px;
+    }
+
+    .Product-heading{
+        font-size: 34px;
+    }
+
+    .erro{
+        display: block;
+    }
+
+    .card-mover{
+        margin: auto !important;
+    }
+
+    .cards-section{
+        display: block;
+        width: 270px;
+        margin: auto;
+    }
+
+    .flower-video{
+        width: 300px;
+        left: 10px;
+        height: 350px;
+        background-repeat: no-repeat;
+    }
+
+    .fill-rectengular-design{
+        margin-top: 0;
+    }
+
+    .rectangular{
+        height: 200px;
+    }
+
+    .section-four{
+        padding-bottom: 0px;
+    }
+
+    /* .footer-link-heading{
+        text-align: center;
+    } */
+
+    .footer-link{
+        font-size: 22px;
+        /* text-align: center; */
+    }
+
+    .footer-link-head{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .first-section-button{
+        width: 275px;
+        margin: auto;
+    }
+
+    .botton-s{
+        margin-bottom: 20px;
+        margin-left: 8px;
+        width: 110px !important;
+    }
+
+    .first-section-bottom-left-leaf{
+        left: 0;
+        opacity: 0.2;
+    }  
+    
+    .sign-in{
+        margin-left: 63px;
+    }
+    
+    .navbar-brand{
+        margin-right: 0px;
+    }
+
+}
+
+
+@media only screen and (min-width: 568px) and (max-width: 767.98px){
+
+
+    
+    .flower-heading h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+
+    .flower-video{
+        width: 525px;
+        left: 10px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .flower-girl{
+        height: 300px;
+        width: 568px;
+        margin: auto;
+        /* background-size: contain; */
+    }
+
+
+    .first-section-right-leaf{
+        right: 0;
+    }
+
+    .first-section-bottom-left-leaf{
+        left: 0;
+        opacity: 0.2;
+    }
+
+    .fill-rectengular-design{
+        display: none;
+    }
+
+    .flower-sub-heading h4{
+        width: 350px;
+        margin: auto !important;
+        padding: 0;
+    }
+
+    .section-two-container{
+        width: 460px;
+    }
+
+
+    .Product-heading{
+        font-size: 40px;
+    }
+
+    .section-four-heading{
+        font-size: 40px;
+    }
+
+    .section-four{
+        padding-bottom: 0px;
+    }
+
+    .section-three-right-leaf{
+        margin-left: 90px;
+    }
+
+    .section-three-left-leaf{
+        margin-left: 25px;
+    }
+
+    .card{
+        height: 320px;
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-text{
+        font-size: 8px;
+    }
+
+    .section-five{
+        text-align: center;
+    }
+
+    .footer-link-head{
+        padding: 0 !important;
+    }
+
+    .sign-in{
+        width: 70px;
+        text-align: center;
+    }
+
+    .navbar-link{
+        margin-left: 0px !important;
+    }
+
+    .footer-link-heading{
+        font-size: 28px;
+    }
+
+    .footer-link{
+        font-size: 15px;
+    }
+
+    .first-section-button{
+        width: 300px;
+        margin: auto;
+    }
+
+    .botton-s{
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023.98px){
+
+    .sign-in{
+        width: 76px;
+        text-align: center;
+    }
+
+    .icon{
+        margin-left: 40px;
+    }
+
+    .flower-girl{
+        width: 581px;
+        height: 528px;
+        margin: auto;
+        
+    }
+
+    .flower-heading h1{
+        margin-top: 50px;
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .flower-sub-heading h4{
+        text-align:  center;
+        margin: 0 !important;
+        line-height: 45px;
+    }
+
+    .flower-arrangment-data{
+        margin: 0 !important;
+    }
+
+    .first-section-right-leaf{
+        right: 0;
+    }
+
+    .first-section-bottom-left-leaf{
+        left: 0;
+        opacity: 0.2;
+    }
+
+    .flower-paragraph p{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .first-section-button{
+        margin-bottom: 20px;
+    }
+
+
+    .first-section-button{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .botton-s{
+        margin-left: 20px !important;
+        width: 120px;
+    }
+
+    .flower-video{
+        width: 705px;
+    }
+
+    .section-four{
+        padding-bottom: 0px;
+    }
+
+    .footer-link-heading{
+        font-size: 28px;
+    }
+
+    .footer-link{
+        font-size: 15px;
+    }
+
+    .footer-link-head{
+        margin-left: 0 !important;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+
+    .flower-heading h1{
+        font-size: 45px;
+    }
+
+    .flower-sub-heading h4{
+        font-size: 20px;
+    }
+
+    .first-section-right-leaf{
+        right: 0;
+    }
+
+    .first-section-bottom-left-leaf{
+        left: 0;
+    }
+
+    .botton-s{
+        /* margin: 0; */
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .section-four{
+        padding-bottom: 0px;
+    }
+
+    .footer-link-head{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+}
